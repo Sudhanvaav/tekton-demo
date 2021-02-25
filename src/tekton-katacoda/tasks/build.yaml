@@ -11,15 +11,15 @@ spec:
     - name: dockerfilePath
       type: string
       description: The path to the dockerfile
-      default: getting-started/src/Dockerfile
+      default: src/Dockerfile
     - name: srcPath
       type: string
       description: The path to the source code
-      default: getting-started/src/app
+      default: src/app
     - name: contextPath
       type: string
       description: Docker build context
-      default: getting-started/src/
+      default: src/
     - name: imageName
       type: string
       description: The name of built image
